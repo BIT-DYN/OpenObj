@@ -73,7 +73,7 @@ Please download the following datasets.
 ### Object Segmentation and Understanding
 Run the following command to identifie and comprehend object instances from color images.
 ```bash
-cd maskclusering
+cd maskclustering
 python3 mask_gen.py  --input /data/dyn/object/vmap/room_0/imap/00/rgb/*.png --input_depth /data/dyn/object/vmap/room_0/imap/00/depth/*.png --output results/room_0/mask/ --opts MODEL.WEIGHTS CropFormer_hornet_3x_03823a.pth 
 ```
 You can see a visualization of the results in the ```results/vis``` folder.
