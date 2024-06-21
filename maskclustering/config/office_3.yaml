@@ -1,0 +1,60 @@
+config_name: office_3.yaml
+skip: 10
+use_num: -1  # 10 -1
+start: 0  #0
+if_filter: 1 #1
+graph_method: weighted
+
+
+x_the: 0 #旋转一下使得平衡
+y_the: 0 #旋转一下使得平衡
+z_the: 0 #旋转一下使得平衡
+
+
+# 是否gt背景
+if_bg: 1
+gt_wall_id: 93
+gt_floor_id: 40
+gt_ceiling_id: 31
+
+
+captions_wall:
+  - wall
+captions_floor: 
+  - floor
+captions_ceiling:
+  - ceiling
+
+threshold_geo: 0.5
+threshold_cap: 0.3
+threshold_clip: 0.3
+threshold_color: 0.5
+
+# fine version for 10th
+weight_geo: 0.30
+weight_cap: 0.20
+weight_clip: 0.30
+weight_color: 0.20 # 数值比较大的
+weight_geo_2d: 0.60
+
+cap_thre: 0.85
+weight_pc: 0.6
+dis_thre: 0.05
+weightcaption: 0.3
+weightcolor: 0.6
+
+# ok
+
+# weight_geo: 0.30
+# weight_cap: 0.20
+# weight_clip: 0.30
+# weight_color: 0.20 # 数值比较大的
+# weight_geo_2d: 0.60
+
+image_W: 1200
+image_H: 680
+depth_scale: 1000
+fx: 600
+fy: 600
+cx: 599.5
+cy: 339.5
