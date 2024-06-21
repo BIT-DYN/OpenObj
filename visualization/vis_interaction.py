@@ -2,7 +2,7 @@
 将得到的地图可视化并实现查询等
 """
 import sys
-sys.path.append("/code1/dyn/github_repos/OpenObj/nerftrain")
+sys.path.append("/code1/dyn/github_repos/OpenObj/objnerf")
 import vis
 from cfg import Config
 import copy

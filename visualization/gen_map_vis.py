@@ -2,7 +2,7 @@
 这个用来生成用于可视化的地图
 '''
 import sys
-sys.path.append("/code1/dyn/github_repos/OpenObj/nerftrain")
+sys.path.append("/code1/dyn/github_repos/OpenObj/objnerf")
 import time
 import loss
 from vmap import *
