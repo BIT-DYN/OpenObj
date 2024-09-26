@@ -60,7 +60,7 @@ def main():
     
     # 读取 YAML 文件，得到mapping的semantic
     if dataset_name == "Replica":
-        with open('/data/dyn/object/vmap/semantic_mapping.yaml', 'r') as file:
+        with open('./replica_color.yaml', 'r') as file:
             data = yaml.safe_load(file)
         # 提取第一个字典
         mapping_dict = data["mapping"]

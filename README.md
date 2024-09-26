@@ -42,7 +42,7 @@ Follow the [instructions](https://github.com/qqlu/Entity/blob/main/Entityv2/READ
 Follow the [instructions](https://github.com/baaivision/tokenize-anything?tab=readme-ov-file#installation) to install the TAP model and download the pretrained weights [here](https://github.com/baaivision/tokenize-anything?tab=readme-ov-file#models).
 
 
-###  Install SBERT Model
+###  Install SBERT ModelD
 ```bash
 pip install -U sentence-transformers
 ```
@@ -55,8 +55,8 @@ git clone https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 ### Clone this repo
 
 ```bash
-git clone https://github.com/BIT-DYN/OpenGraph
-cd OpenGraph
+git clone https://github.com/BIT-DYN/OpenObj
+cd OpenObj
 ```
 
 
