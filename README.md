@@ -69,6 +69,7 @@ Please download the following datasets.
 * [ScanNet](https://github.com/ScanNet/ScanNet) - Official ScanNet sequences.
 
 
+## 🏃 Run
 
 ### Object Segmentation and Understanding
 Run the following command to identifie and comprehend object instances from color images.
