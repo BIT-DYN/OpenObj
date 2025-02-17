@@ -42,7 +42,7 @@ Follow the [instructions](https://github.com/qqlu/Entity/blob/main/Entityv2/READ
 Follow the [instructions](https://github.com/baaivision/tokenize-anything?tab=readme-ov-file#installation) to install the TAP model and download the pretrained weights [here](https://github.com/baaivision/tokenize-anything?tab=readme-ov-file#models).
 
 
-###  Install SBERT Model
+###  Install SBERT ModelD
 ```bash
 pip install -U sentence-transformers
 ```
@@ -69,6 +69,7 @@ Please download the following datasets.
 * [ScanNet](https://github.com/ScanNet/ScanNet) - Official ScanNet sequences.
 
 
+## 🏃 Run
 
 ### Object Segmentation and Understanding
 Run the following command to identifie and comprehend object instances from color images.
